@@ -1,0 +1,23 @@
+# Compiled output
+target/
+
+# IDE files
+*.iml
+.idea/
+*.ipr
+*.iws
+.vscode/
+.settings/
+.project
+.classpath
+
+# OS junk
+Thumbs.db
+.DS_Store
+
+# Maven wrapper (if not used)
+.mvn/
+
+# Runtime data (generated on server, not part of source)
+plugins/
+

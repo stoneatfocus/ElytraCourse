@@ -1,0 +1,20 @@
+name: ElytraCourse
+version: '${project.version}'
+main: MCOasis.elytra.Elytra
+api-version: 1.21
+authors: [ MCOasis ]
+softdepend: [ PlaceholderAPI ]
+
+commands:
+  elytracourse:
+    description: Main command for Elytra Course
+    aliases: [ ec ]
+    usage: /elytracourse <subcommand>
+
+permissions:
+  elytracourse.admin:
+    description: Admin permission for all course setup commands
+    default: op
+  elytracourse.tools:
+    description: Permission to get the toolset
+    default: op

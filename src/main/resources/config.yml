@@ -1,0 +1,45 @@
+options:
+  # Actionbar update period in ticks
+  actionbar-update-period: 2
+  # Whether to restore the chest item the player had before equipping Elytra
+  restore-chest-item: true
+  # Seconds of cooldown before a player can be boosted by the same boost block again
+  boost-cooldown-seconds: 0.5
+  # Should the player be reset if they stop gliding?
+  reset-on-stop-gliding: false
+
+messages:
+  prefix: "<gradient:#00BFFF:#1E90FF><bold>ElytraCourse</bold></gradient> <dark_gray>»</dark_gray> "
+  no-permission: "<red>You do not have permission to do that.</red>"
+  only-players: "<red>Only players can use this command.</red>"
+  reload-success: "<green>Configuration reloaded successfully!</green>"
+
+  # Setup messages
+  set-start-plate: "<green>Start plate set at <yellow><location></yellow> for world <aqua><world></aqua>.</green>"
+  set-start-loc: "<green>Start location set to your position.</green>"
+  set-reset-loc: "<green>Reset location set to your position.</green>"
+  set-finish-loc: "<green>Finish location set to your position.</green>"
+  tools-given: "<green>You have been given the course tools.</green>"
+
+  # Game messages
+  run-start: "<green>Run started! Go!</green>"
+  run-reset: "<red>Run reset! You hit a solid block.</red>"
+  run-finish: "<green><player> finished the course in <yellow><time></yellow>! <gray>(Best: <best_time>)</gray></green>"
+  run-finish-pb: "<gold><bold>NEW RECORD!</bold> <player> finished in <yellow><time></yellow>!</gold>"
+
+  # Action bar
+  timer-actionbar: "<yellow>Time: <white><time></white></yellow>"
+
+  # Tool messages
+  tool-mark-boost: "<green>Marked Boost Block (Strength: <strength>)</green>"
+  tool-unmark-boost: "<green>Unmarked Boost Block</green>"
+  tool-mark-exception: "<green>Marked Exception Block</green>"
+  tool-unmark-exception: "<green>Unmarked Exception Block</green>"
+  tool-mark-win: "<green>Marked Win Block</green>"
+  tool-unmark-win: "<green>Unmarked Win Block</green>"
+  tool-strength-changed: "<green>Boost tool strength set to <strength></green>"
+
+  # Errors
+  not-in-course-world: "<red>This world does not have a course configured.</red>"
+  setup-incomplete: "<red>Course setup is incomplete for this world. Missing: <missing></red>"
+
