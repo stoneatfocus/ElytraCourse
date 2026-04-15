@@ -5,7 +5,7 @@ A Paper plugin for creating time-trial Elytra courses
 ## Features
 - **Start Plate**: Step on a pressure plate to auto-equip elytra and start the timer.
 - **Strict Collision**: Any collision with a solid block (walls, floors) resets the run.
-- **Boost Rings**: Fly through marked blocks to gain a speed boost. Visual particles indicate strength!
+- **Boost Rings**: Fly through marked blocks to gain a speed boost. Color indicates strength!
 - **Leaderboards**: Track personal bests and top world records using PlaceholderAPI.
 - **Tools**: Easy-to-use items for setting up the course without memorizing coordinates.
 
@@ -13,7 +13,7 @@ A Paper plugin for creating time-trial Elytra courses
 * `/ec setstartplate` - Look at a pressure plate to set it as the start point.
 * `/ec setstartloc` - Set where the player teleports to when the run begins.
 * `/ec setresetloc` - Set where players respawn if they crash.
-* `/ec setfinishloc` - Set the "Winner's Podium" location.
+* `/ec setfinishloc` - Set the reset location after a finish.
 * `/ec deletecourse` - Completely wipe the course data for the current world.
 * `/ec tools [player]` - Get the setup toolset (Mark/Unmark blocks).
 * `/ec help` - Show a list of all commands.
@@ -32,7 +32,7 @@ A Paper plugin for creating time-trial Elytra courses
    - Run `/ec tools`.
    - **Right-Click** blocks with the tools to mark them.
    - **Boost Blocks**: Left-click the air with the "Mark Boost" tool to cycle speed strength (Green = Slow, Red = Fast).
-   - **Exception Blocks**: Use these on platforms you want players to be able to land on safely.
+   - **Exception Blocks**: Use these on platforms you want players to be able to stand and land on safely.
    - **Win Blocks**: Mark the end-gate. Hitting this stops the timer.
 
 ## Leaderboards (PlaceholderAPI)
